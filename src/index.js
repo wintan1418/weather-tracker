@@ -1,5 +1,5 @@
-import weather from "./modules/weather";
-import display from ".modules/views";
+import weather from "./page/weather";
+import view from "./page/view";
 
 const form = document.getElementById("form");
 const formInputs = document.getElementById("formInputs");

@@ -1,3 +1,5 @@
 body {
-  background-image: url(weather.jpg);
+  background-image: url(meteor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

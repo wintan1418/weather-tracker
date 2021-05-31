@@ -13,7 +13,7 @@ const view = (() => {
 
     cityName.textContent = `${weatherData.cityName}`;
     temperature.textContent = `${weatherData.temperature} °C`;
-    possibility.textContent = `Fells like: ${weatherData.possibility} °C`;
+    possibility.textContent = `possibility: ${weatherData.possibility} °C`;
     humidity.textContent = `Humidity: ${weatherData.humidity} %`;
     wind.textContent = `Wind: ${weatherData.windSpeed} km/h`;
   }

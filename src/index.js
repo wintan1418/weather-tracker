@@ -8,3 +8,9 @@ const searchBtn = document.getElementById.getElementById("searchBtn");
 searchForm.addEventListener("submit", (f) => {
   f.preventDefault();
 });
+
+searchBtn.addEventListener("click", async () => {
+  if (formInputs.value === "") return;
+  const weatherData = await weather.getData(formInputs.value);
+  view.setSearchOutput(weatherData);
+});

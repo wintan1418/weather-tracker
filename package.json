@@ -4,8 +4,10 @@
   "description": "The Weather App project comes at the end of the Asynchronous Javascript and APIs section of the Javascript course. It tests the knowledge of the student about asynchronous communication with promises or async/await and when to use them",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  }
+  ,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wintan1418/weather-tracker.git"

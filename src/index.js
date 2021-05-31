@@ -3,9 +3,9 @@ import view from "./page/view";
 
 const form = document.getElementById("form");
 const formInputs = document.getElementById("formInputs");
-const searchBtn = document.getElementById.getElementById("searchBtn");
+const searchBtn = document.getElementById("searchBtn");
 
-searchForm.addEventListener("submit", (f) => {
+form.addEventListener("submit", (f) => {
   f.preventDefault();
 });
 

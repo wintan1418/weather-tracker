@@ -21,4 +21,4 @@ const view = (() => {
   return { setSearchOutput };
 })();
 
-export default display;
+export default view;

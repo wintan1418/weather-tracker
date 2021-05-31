@@ -1,5 +1,79 @@
+:root {
+  --primary-light: #faf3e0;
+  --secondary-light: #acb4f4;
+  --primary-dark: #1e212d;
+  --secondary-dark: #6870e0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6;
+}
+
+header {
+  font-family: "Antic Slab", serif;
+  font-size: 2.4rem;
+}
+
+button,
+input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+
 body {
   background-image: url(meteor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.page-top {
+  padding: 2rem;
+  background-color: var(--primary-dark);
+  color: var(--secondary-light);
+}
+
+.page-banner {
+  text-align: center;
+}
+
+.page-banner i {
+  color: var(--primary-light);
+  margin-right: 1rem;
+}
+.main {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.google {
+  padding: 1rem;
+  text-align: center;
+}
+
+.input {
+  margin-right: 0.5rem;
+  background-color: var(--secondary-light);
+  color: var(--primary-dark);
+  border: 2px solid transparent;
 }

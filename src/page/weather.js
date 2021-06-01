@@ -24,7 +24,4 @@ const weather = (() => {
   return { getData };
 })();
 
-
-  
-
 export default weather;

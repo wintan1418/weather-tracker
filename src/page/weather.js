@@ -9,7 +9,7 @@ const weather = (() => {
   }
 
   async function getData(city) {
-    const endpoint = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=28fe7b5f9a78838c639143fc517e4343`;
+    const endpoint = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=716282e50b3279ab43fcb00aa8720927`;
     try {
       const response = await fetch(endpoint, { mode: "cors" });
       if (!response.ok) throw new Error(`City ${city} not found`);
@@ -20,7 +20,11 @@ const weather = (() => {
       return null;
     }
   }
+ 
   return { getData };
 })();
+
+
+  
 
 export default weather;

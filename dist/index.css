@@ -58,7 +58,7 @@ body {
 }
 
 .page-banner i {
-  color: var(--primary-light);
+  color: white;
   margin-right: 1rem;
 }
 .main {
@@ -71,9 +71,58 @@ body {
   text-align: center;
 }
 
-.input {
+.inputs {
   margin-right: 0.5rem;
   background-color: var(--secondary-light);
   color: var(--primary-dark);
   border: 2px solid transparent;
+  font-size: 15px;
+}
+.btn {
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  transition: border 0.2s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.btn:hover {
+  border: 2px solid var(--secondary-light);
+}
+
+.btn:active {
+  color: #999;
+}
+
+.search-result {
+  display: none;
+  max-width: 300px;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 4rem auto;
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-result.active {
+  display: block;
+}
+
+.search-result * {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.search-result h3 {
+  border-radius: 5px;
+  color: var(--secondary-light);
+  font-size: 4rem;
+}
+
+.search-result p:nth-child(2) {
+  font-size: 3.6rem;
+}
+
+.search-result p {
+  font-size: 2rem;
 }

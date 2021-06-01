@@ -1,8 +1,8 @@
 :root {
-  --primary-light: #faf3e0;
-  --secondary-light: #acb4f4;
-  --primary-dark: #1e212d;
-  --secondary-dark: #6870e0;
+  --primary-light: #665e49;
+  --secondary-light: #202a75;
+  --primary-dark: #0d1303e3;
+  --secondary-dark: #04262e;
 }
 
 *,
@@ -37,8 +37,6 @@ input {
 button {
   cursor: pointer;
 }
-
-
 
 
 body {

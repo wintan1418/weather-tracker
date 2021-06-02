@@ -28,7 +28,7 @@ input {
   padding: 0.5rem;
   border: none;
   border-radius: 5px;
-  color: inherit;
+  color: cornsilk;
   font-family: inherit;
   font-size: inherit;
   outline: none;
@@ -71,14 +71,14 @@ body {
 
 .inputs {
   margin-right: 0.5rem;
-  background-color: var(--secondary-light);
-  color: var(--primary-dark);
+  background-color: cornsilk;
+  color: cornsilk;
   border: 2px solid transparent;
   font-size: 15px;
 }
 .btn {
-  background-color: var(--primary-dark);
-  color: var(--primary-light);
+  background-color: var(--primary-light);
+  color: cornsilk;
   transition: border 0.2s ease-in-out;
   border: 2px solid transparent;
 }

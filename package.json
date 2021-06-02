@@ -33,5 +33,4 @@
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
   }
-  
 }
